@@ -65,15 +65,17 @@ header img {
 }
 
 .banner button{
-    width: 326px;
+    width: 340px;
     height: 57px;
     top: 473px;
     left: 557px;
-    padding: 19px 91px 19px 91px;
+    padding: 19px 51px 19px 51px;
     gap: 31px;
     border: 2px solid #33A8DB;
     color: #33A8DB;
     background-color: transparent;
+    font-size: 22px;
+    font-weight: 700;
 }
 
 #course-content{
