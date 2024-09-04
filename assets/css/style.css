@@ -1,18 +1,43 @@
 @import url("/assets/css/global.css");
 
-main, header, footer {
+
+main, header, footer, body {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    width: 1440px;
+    background-color: rgb(4, 4, 24);
   }
+
 
 footer{
     background-image: linear-gradient(rgb(4, 4, 24), rgb(99, 104, 99));
 }
 
+header {
+    height: 605px;
+    border-bottom: 1px solid #33A8DB;
+    border: 0px, 0px, 1px, 0px;
+}
+header img {
+    width: 248px;
+    height: 214px;
+    top: 27px;
+    left: 131px;
+}
+
+.logo{
+    width: 268px;
+    height: 268px;
+
+    background: #00000033;
+    border-radius: 50%;
+    
+}
+
 .banner{
-    margin-block-start: 0em;
+    margin: 0em;
     background-image: url(/assets/images/banner.png),linear-gradient(rgb(4, 4, 24), rgb(99, 104, 99),rgb(1, 1, 17));
 }
 
@@ -21,16 +46,95 @@ footer{
     height: 393px;
     top: 56px;
     left: 465px;
-    border: 0;
+    gap: 16px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     }
 
+.banner-content p{
+    width: 510px;
+    height: 46px;
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23.48px;
+    text-align: center;
+
+}
+
+.banner button{
+    width: 326px;
+    height: 57px;
+    top: 473px;
+    left: 557px;
+    padding: 19px 91px 19px 91px;
+    gap: 31px;
+    border: 2px solid #33A8DB;
+    color: #33A8DB;
+    background-color: transparent;
+}
+
 #course-content{
-    background-color: rgb(4, 4, 24);
+
+    margin: 60px 0px;
+
+    width: 792px;
+    height: 325px;
+    top: 723px;
+    left: 324px;
+    gap: 24px;
+
+    background-color: transparent;
+
+}
+
+#course-content p{
+    width: 792px;
+    height: 38px;
+    gap: 0px;
+
+    align-content: center;
+
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.78px;
+    text-align: left;
+
+
+}
+.module{
+    padding: 16px 127px 16px 127px;
+    border-radius: 57px 57px 57px 57px;
+    margin: 20px 0px ;
+
+    border: 1px solid #33A8DB;
+    background-color: #252525;
+    width: 281px;
+    height: 19px;
+    gap: 0px;
+
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.78px;
+    text-align: center;
+    color: aliceblue;
+
+
+}
+
+span{
+    color:#33A8DB ;
+
 }
 
 #professional-challenges{
     background-color: rgb(4, 4, 24);
     text-align:center;
+    
 }
 
 #transform-world{
@@ -45,7 +149,7 @@ footer{
 }
 
 #transform-world p {
-    text-align: left;
+    text-align: center;
     font-size: 40px;
 }
 
@@ -54,8 +158,15 @@ h1, h2{
 }
 
 h1{
-    font-weight: bold;
+    width: 434px;
+    height: 47px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Raleway;
     font-size: 40px;
+    font-weight: 900;
+    line-height: 46.96px;
+    text-align: center;
 }
 
 h2{
@@ -69,5 +180,3 @@ p{
     color: aliceblue;
 }
 
-
-  
