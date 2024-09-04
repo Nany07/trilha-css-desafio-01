@@ -7,9 +7,11 @@ main, header, footer, body {
     align-items: center;
     text-align: center;
     width: 1440px;
-    background-color: rgb(4, 4, 24);
   }
 
+main{
+    background-color: rgb(4, 4, 24);
+}
 
 footer{
     background-image: linear-gradient(rgb(4, 4, 24), rgb(99, 104, 99));
@@ -147,15 +149,15 @@ span{
 #transform-world{
     background-image: url('/assets/images/woman-code.png');
     background-attachment: fixed ;
-    background-position-x: 0%;
+    background-position-x: center;
     background-position-y: top;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 1440px;
     height: 363px;
     top: 1138px;
     gap: 0px;
-    border-width: 0.3px  0.3px 03px 0px;
+    border-width: 0.3px  0px 0.3px 0px;
     border-style: solid;
     border-color: #33A8DB;
 }
