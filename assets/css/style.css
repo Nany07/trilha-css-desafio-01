@@ -10,11 +10,11 @@ main, header, footer, body {
   }
 
 main{
-    background-color: rgb(4, 4, 24);
+    background-color:rgb(1, 1, 17);
 }
 
 footer{
-    background-image: linear-gradient(rgb(4, 4, 24), rgb(23, 51, 59));
+    background-image: linear-gradient(rgb(1, 1, 17), rgb(23, 51, 59));
 }
 
 header {
