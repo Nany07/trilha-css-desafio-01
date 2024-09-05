@@ -14,7 +14,7 @@ main{
 }
 
 footer{
-    background-image: linear-gradient(rgb(4, 4, 24), rgb(99, 104, 99));
+    background-image: linear-gradient(rgb(4, 4, 24), rgb(23, 51, 59));
 }
 
 header {
@@ -40,7 +40,7 @@ header img {
 
 .banner{
     margin: 0em;
-    background-image: url(/assets/images/banner.png),linear-gradient(rgb(4, 4, 24), rgb(99, 104, 99),rgb(1, 1, 17));
+    background-image: url(/assets/images/banner.png),linear-gradient(rgb(4, 4, 24), rgb(23, 51, 59),rgb(1, 1, 17));
 }
 
 .banner-content{
@@ -189,7 +189,7 @@ span{
 }
 
 footer{
-    border-width: 2px 0px 0px 0px;
+    border-width: 1px 0px 0px 0px;
     border-style: solid;
     border-color: #33A8DB;
     height: 170px;
