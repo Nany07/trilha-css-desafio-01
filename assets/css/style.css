@@ -1,4 +1,4 @@
-@import url("/assets/css/global.css");
+@import url('global.css');
 
 
 main, header, footer, body {
@@ -138,7 +138,7 @@ span{
 }
 
 #transform-world{
-    background-image: url(/assets/images/woman-code.png);
+    background-image: url("../images/woman-code.png");
     background-attachment: fixed ;
     background-position-x: center;
     background-position-y: top;
@@ -227,7 +227,6 @@ h2{
     line-height: 37.57px;
     letter-spacing: 0.19em;
     text-align: center;
-
 }
 
 p{
