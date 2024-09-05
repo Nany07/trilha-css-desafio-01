@@ -83,7 +83,6 @@ header img {
 #course-content{
 
     margin: 60px 0px;
-
     width: 792px;
     height: 380px;
     top: 723px;
@@ -114,8 +113,6 @@ header img {
 
 
 }
-
-
 .module{
     padding: 16px 127px 16px 127px;
     border-radius: 57px 57px 57px 57px;
@@ -138,12 +135,6 @@ header img {
 span{
     color:#33A8DB ;
 
-}
-
-#professional-challenges{
-    background-color: rgb(4, 4, 24);
-    text-align:center;
-    
 }
 
 #transform-world{
@@ -174,6 +165,27 @@ span{
     font-weight: 700;
     text-align: left;
     text-transform: lowercase;
+}
+
+#professional-challenges{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 780px;     
+    gap: 30px;
+ }
+
+#professional-challenges h2{
+    margin: 50px 0px 0px;
+    height: 80px;
+    width: 800px;
+}
+
+#professional-challenges p{
+    width: 840px;
+    height: 90px;
+    color: #FFFFFF;
+    font-family: Raleway;
 }
 
 h1, h2{
